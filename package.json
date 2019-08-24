@@ -5,6 +5,6 @@
     "react-dom": "^16.9.0"
   },
   "scripts": {
-    "now-build": "react-scripts build"
+    "now-build": "npx next"
   }
 }

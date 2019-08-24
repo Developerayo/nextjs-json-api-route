@@ -3,7 +3,7 @@
     "name": "NextJS Json Api Route",
     "alias": "nextjs-json-api-route.now.sh",
     "builds": [
-      {"src": "package.json", "use": "@now/static-build", "config": {"distDir": "build"}}
+      {"src": "package.json", "use": "@now/next", "config": {"distDir": "build"}}
     ],
     "routes": [
         {"src": "/static/(.*)", "headers": {"cache-control": "s-maxage=31536000,immutable"}, "dest": "/static/$1"},

@@ -3,6 +3,6 @@
     "name": "NextJS Json Api Route",
     "alias": "nextjs-json-api-route.now.sh",
     "builds": [
-      {"src": "src/package.json", "use": "@now/next", "config": {"distDir": "build"}}
+      {"src": "package.json", "use": "@now/next", "config": {"distDir": "build"}}
     ]
 } 

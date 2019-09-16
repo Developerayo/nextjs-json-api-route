@@ -11,7 +11,9 @@ export default () => {
     return (
     <div>
     <div>{value.message}</div>
-    <button onClick={getData}>Get Data</button> 
+    <button 
+    style={{ color: 'orange' }}
+    onClick={getData}>Get Data</button> 
     </div>
     )
 }

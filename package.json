@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "create-next-app": "^9.0.5",
     "next": "^9.0.4",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
@@ -8,7 +9,7 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start",
-    "now-build": "npx next"
+    "start": "next build",
+    "now-build": "next build"
   }
 }
